@@ -1,3 +1,3 @@
 # Pong
  
-# A simple Pong game made in the Python module pygame
+ A simple Pong game made in the Python module pygame
