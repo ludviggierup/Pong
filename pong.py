@@ -63,9 +63,11 @@ while not game_over:
     if ball.rect.x >= 690:
         scoreA += 1
         ball.velocity[0] = -ball.velocity[0]
+        ball.rect.x = 350
     if ball.rect.x <= 0:
         scoreB += 1
         ball.velocity[0] = -ball.velocity[0]
+        ball.rect.x = 350
     if ball.rect.y > 490:
         ball.velocity[1] = -ball.velocity[1]
     if ball.rect.y < 0:
