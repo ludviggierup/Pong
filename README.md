@@ -9,5 +9,5 @@ To run the code you need to install the **pygame** module
 
 # Run game
 
-Then to run the Pong game write: 
+Then to run the Pong game: 
 `$ python Pong.py`
